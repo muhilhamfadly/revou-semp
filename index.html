@@ -3,11 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Test Revou Bootcamp</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <h1>Test Page</h1>
-    <p>This is a simple test page to check the HTML structure.</p>
-    <p>Make sure to validate the HTML and check for any errors.</p>
+    <h1 class="text-3xl pb-4 text-blue-500 font-bold pl-6 pt-6 bg-yellow-100">Test Page</h1>
+    <hr/>
+    <p class="text-1xl pl-3">Halo, nama saya Ilham </p>
+    <p>Saya sedang mengikuti <br/> bootcamp revou</p>
+    <!-- gunakan ctrl + / untuk comentar -->
+    <h1>Ini heading 1</h1>
+    <h2>Ini heading 2</h2>
+    <h3>Ini heading 3</h3>
+    <h4>Ini heading 4</h4>
+    <h5>Ini heading 5</h5>
+    <h6>Ini heading 6</h6>
+    <p>Teks ini termasuk <b>bold</b> dan ini termasuk <i>italic</i></p>
+    <p>Ini tulisan ke <sub>bawah</sub> dan ini tulisan ke <sup>atas</sup></p>
+    <h1>Bullet Point</h1>
+    <ul type="square">
+        <li>List item 1<p>Ini adalah penjelasan untuk list item ke-1</p></li>
+        <li>List item 2<p>Ini adalah penjelasan untuk list item ke-2</p></li>
+        <li>List item 3<p>Ini adalah penjelasan untuk list item ke-3</p></li>
+    </ul>
+
+    <h1>Numbered List</h1>
+    <p>Dibawah termasuk list yang memiliki urutan:</p>
+    <ol type="1">
+        <li>ini adalah list item yang memiliki nomor ke-1</li>
+        <li>ini adalah list item yang memiliki nomor ke-2</li>
+        <li>ini adalah list item yang memiliki nomor ke-3</li>
+    </ol>
+
+    <h1>Tabel</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Alamat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joni</td>
+                <td>999</td>
+                <td>Jakarta</td>
+            </tr>
+            <tr>
+                <td>Joni1</td>
+                <td>9999</td>
+                <td>Bekasi</td>
+            </tr>
+            <tr>
+                <td>Joni2</td>
+                <td>99999</td>
+                <td>Bandung</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Gambar</h1>
+    <img src="/images/revou.png" alt="logo revou"/>
+
+    <h1>Link</h1>
+    <p>Ini adalah link ke <a href="www.revou.co">Revou</a></p>
+    <p>Ini adalah link ke <a href="/second.html">Second HTML</a></p>
+
+    <h1>Contact US</h1>
+    <form>
+        <label>Nama</label>
+        <input type="text" placeholder="Masukkan nama anda"/>
+        <br/>
+        <label>Email</label>
+        <input type="email" placeholder="Masukkan email anda"/>
+        <br/>
+        <label>Jenis kelamin</label>
+        <input type="radio" name="jenis-kelamin" value="male"/>Laki-laki
+        <input type="radio" name="jenis-kelamin" value="femake"/>Perempuan
+        <br/>
+        <label>Pesan</label>
+        <br/>
+        <textarea rows="5" cols="30" placeholder="Masukkan pesan anda"></textarea>
+        <br/>
+        <input type="checkbox"/>Saya setuju dengan syarat dan ketentuan
+        <br/>
+        <input type="submit" value="Kirim"/>
+    </form>
 </body>
 </html>
